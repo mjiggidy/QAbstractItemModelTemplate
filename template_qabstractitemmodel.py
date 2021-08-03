@@ -7,7 +7,7 @@ from Pyside6 import QtCore
 class TemplateAbstractItemModel(QtCore.QAbstractItemModel):
 
 	def __init__(self):
-		"""A model of all bookmarks"""
+		"""Create and setup a new model""
 		super().__init__()
 	
 	def index(self, row:int, column:int, parent:typing.Optional[QtCore.QModelIndex]=QtCore.QModelIndex()) -> QtCore.QModelIndex:

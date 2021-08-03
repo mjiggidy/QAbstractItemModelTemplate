@@ -9,6 +9,9 @@ class TemplateAbstractItemModel(QtCore.QAbstractItemModel):
 	def __init__(self):
 		"""Create and setup a new model"""
 		super().__init__()
+		
+		# Typically a list of data here
+		# Typically a dict of header keys and values here
 	
 	def index(self, row:int, column:int, parent:typing.Optional[QtCore.QModelIndex]=QtCore.QModelIndex()) -> QtCore.QModelIndex:
 		"""Returns the index of the item in the model specified by the given row, column and parent index."""

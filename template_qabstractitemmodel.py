@@ -2,7 +2,7 @@
 # based on documentation from https://doc.qt.io/qtforpython/PySide6/QtCore/QAbstractItemModel.html
 
 import typing
-from Pyside6 import QtCore
+from PySide6 import QtCore
 
 class TemplateAbstractItemModel(QtCore.QAbstractItemModel):
 
